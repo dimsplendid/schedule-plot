@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Schedule Plot</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <h1>Schedule Plot</h1>
+  <br/>
+  <br/>
+  <input type="file" id="csvFile" accept=".csv" hidden="true"/>
+  <div class="timeline-scroll">
+    <div class="timeline" id="timeline">
+      <div class="line"></div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
